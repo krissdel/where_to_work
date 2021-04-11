@@ -95,6 +95,10 @@ export default {
   border-radius: 0.25rem;
   // --------------
   background: padding-box;
+
+  box-shadow: 0px 0px 20px 1px rgb(250 250 250 / 56%);
+  -webkit-box-shadow: 0px 0px 20px 1px rgb(250 250 250 / 56%);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(250 250 250 /0.56);
 }
 .card-body {
   flex: 1 1 auto;
