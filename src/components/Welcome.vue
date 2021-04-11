@@ -131,7 +131,7 @@ h4 {
 // =====[dots animation ]========================
 .dots:after {
   display: inline-block;
-  animation: dotty steps(1, end) 1s infinite;
+  animation: dotty steps(1, end) 2s infinite;
   content: "";
 }
 
