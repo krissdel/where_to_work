@@ -59,7 +59,7 @@
     </div>
   </div>
   <!-- <h4>{{ msg }}</h4> -->
-  <h4 class="loading">Welcome</h4>
+  <h4 class="dots">Welcome</h4>
 
   <!-- <svg width="500" height="200">
     <rect width="500" height="200" x="0" fill="#251c1b" />  
@@ -129,7 +129,7 @@ h4 {
 // ---------------------------------------
 
 // =====[dots animation ]========================
-.loading:after {
+.dots:after {
   display: inline-block;
   animation: dotty steps(1, end) 1s infinite;
   content: "";
