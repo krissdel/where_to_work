@@ -28,8 +28,8 @@ svg {
 #nav {
   padding: 30px;
   display: flex;
-      position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
 
   a {
     font-weight: bold;
@@ -44,6 +44,18 @@ svg {
     font-size: 18px;
     line-height: 3.2;
     color: #55e094;
+    text-shadow: #55e094 1px 0 10px;
   }
+}
+
+// ====================================
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+img, svg {
+    vertical-align: middle;
+    width: 36%;
+}
 }
 </style>

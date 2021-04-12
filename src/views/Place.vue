@@ -1,9 +1,7 @@
 <template>
   <div class="place">
-    <!-- <h1>page 2</h1> -->
     
     <Localisation /> 
-
   </div>
 </template>
 
@@ -16,6 +14,7 @@ export default {
   name: 'Place',
   components: {
     Localisation,
+    
   }
 }
 </script>

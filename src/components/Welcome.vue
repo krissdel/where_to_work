@@ -46,13 +46,13 @@
         </div>
         <div class="need_link">
           <div class="need_link1">
-            <router-link to="/about">NEED A PLACE FOR WORKING</router-link>
+            <router-link to="/Place">NEED A PLACE FOR WORKING</router-link>
           </div>
           <div class="need_link2">
-            <router-link to="/about">NEED WORK MATERIAL</router-link>
+            <router-link to="/">NEED WORK MATERIAL</router-link>
           </div>
           <div class="need_link2">
-            <router-link to="/about">NEED A CO-WORKER</router-link>
+            <router-link to="/">NEED A CO-WORKER</router-link>
           </div>
         </div>
       </div>
@@ -61,9 +61,7 @@
   <!-- <h4>{{ msg }}</h4> -->
   <h4 class="dots">Welcome</h4>
 
-  <!-- <svg width="500" height="200">
-    <rect width="500" height="200" x="0" fill="#251c1b" />  
-  </svg> -->
+ 
 </template>
 
 <script>
@@ -76,13 +74,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped lang="scss">
 // -----[cadre acceuil]---------------------------------
-// rect {
-//     fill: none;
-//     stroke: white;
-//     stroke-width: 10px;
-// }
+
+
 .card {
   position: relative;
   display: flex;
@@ -123,9 +119,11 @@ a {
   text-decoration: none;
   color: #57e597;
   font-size: x-large;
+  text-shadow: #55e094 1px 0 10px;
 }
 h4 {
   color: #57e597;
+  text-shadow: #55e094 1px 0 10px;
 }
 
 // ---------------------------------------
@@ -135,6 +133,7 @@ h4 {
   display: inline-block;
   animation: dotty steps(1, end) 2s infinite;
   content: "";
+  
 }
 
 @keyframes dotty {

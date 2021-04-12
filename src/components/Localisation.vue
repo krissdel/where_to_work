@@ -1,30 +1,107 @@
 <template>
-  <div class="card" style="width: 30rem; height: 15rem">
-      <div class="card-body">
-        <div class="need_link">
-          <div class="need_link1">
-            <router-link to="/about">NEED A PLACE FOR WORKING</router-link>
-          </div>
-          <div class="need_link2">
-            <router-link to="/about">NEED WORK MATERIAL</router-link>
-          </div>
-          <div class="need_link2">
-            <router-link to="/about">NEED A CO-WORKER</router-link>
-          </div>
-        </div>
+<div class="hello">
+
+  <div class="navbar">
+      <div class="container-fluid">
+        <h1 class="navbar-brand">LOCALISATION</h1>
+        <div class="navbar-brand-lower">enter the city</div>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder=" " aria-label="Search">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
       </div>
-    </div>
+  </div>
+
+
+
+<div class="navbar">
+      <div class="container-fluid">
+        <h1 class="navbar-brand">WHAT DO YOU NEED</h1>
+        <div class="navbar-brand-lower">work material</div>
+
+<div class="mb-3">
+  <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder=" " aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+</div>
+
+
+</div> 
+
+
+
 </template>
 
 <script>
 export default {
  name: "Localisation",
+ 
   // props: {
   //   msg: String,
   // },
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #57e597;
+  font-size: x-large;
+  // text-shadow: #55e094 1px 0 10px;
+}
+.navbar-brand {
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    // width: 425px;
+}
+.navbar-brand-lower {
+ color: #57e597;
+  text-shadow: #55e094 1px 0 10px;
+  font-size: 1.5rem;
+}
+.container-fluid {
+    flex-direction: column;
+}
+// a.navbar-brand {
+//     width: 100%;
+//     text-align: left;
+// }
+// .navbar-light .navbar-brand {
+//     color: white ;
+// }
+
+.form-control {
+   
+    color: #57e597;
+    background-color: black;
+    background-clip: padding-box;
+    border: 4px solid #57e597;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0rem; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-shadow: #55e094 1px 0 10px;
+}
+
+// ========================================
+
 
 </style>
