@@ -1,5 +1,5 @@
 <template>
-  <!-- <h1>{{ msg }}</h1> -->
+  <h1>{{ msg }}</h1>
   <div class="hello">
     <div class="card" style="width: 30rem; height: 15rem">
       <div class="card-body">
@@ -92,7 +92,8 @@ export default {
   background-color: #4f4645;
   background-clip: border-box;
   border: 8px solid rgb(255, 255, 255);
-  border-radius: 0.25rem;
+  // border-radius: 0.25rem;
+  border-radius: 1.3rem;
   // --------------
   background: padding-box;
 
@@ -107,8 +108,9 @@ export default {
 }
 .line {
   // background-color: #6d6b6b;
-  background-color: #6d6b6b69;
+  background-color: #6d6b6b4a;
   margin-bottom: 3px;
+  // width: 102%;
 }
 .need_link {
   position: absolute;
@@ -162,7 +164,7 @@ h4 {
   justify-content: center;
 }
 
-h3 {
-  margin: 40px 0 0;
-}
+// h3 {
+//   margin: 40px 0 0;
+// }
 </style>
