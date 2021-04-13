@@ -86,7 +86,10 @@ a {
 // .navbar-light .navbar-brand {
 //     color: white ;
 // }
-
+.d-flex {
+    // display: flex!important;
+    width: 300px;
+}
 .form-control {
   color: #57e597;
   background-color: black;
@@ -100,7 +103,7 @@ a {
   text-shadow: #55e094 1px 0 10px;
 }
 textarea.form-control {
-    width: 14pc;
+    // width: 14pc;
     margin-right: .5rem!important;
 }
 
