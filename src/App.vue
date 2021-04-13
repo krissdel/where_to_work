@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <img alt="Vue logo" src="@/assets/logo.png" />
+    <!-- <img alt="Vue logo" src="@/assets/logo.png" /> -->
 
     <router-link to="/"><h1>WHERE to WORK</h1></router-link>
     <!-- <router-link to="/about">About</router-link> -->

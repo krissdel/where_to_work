@@ -1,24 +1,20 @@
 <template>
-  <div class="place">
-    
-    <Localisation /> 
-  </div>
+  <PlaceToWork />
 </template>
 
-
 <script>
-// @ is an alias to /src
-import Localisation from '@/components/Localisation.vue'
+import PlaceToWork from '@/components/PlaceToWork.vue'
+
 
 export default {
-  name: 'Place',
+ name: 'Place',
   components: {
-    Localisation,
+    PlaceToWork,
     
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

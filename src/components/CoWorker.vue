@@ -19,8 +19,8 @@
 
     <div class="navbar"> -->
       <div class="container-fluid">
-        <h1 class="navbar-brand">WHAT DO YOU NEED</h1>
-        <div class="navbar-brand-lower">work material</div>
+        <h1 class="navbar-brand">WHAT DO YOU NEED !</h1>
+        <div class="navbar-brand-lower">co-worker</div>
 
         <div class="d-flex">
           <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "Localisation",
+  name: "CoWorker",
 
   // props: {
   //   msg: String,
@@ -65,10 +65,11 @@ a {
 }
 .navbar-brand {
   color: white;
-  width: 100%;
+  width: 80%;
   text-align: left;
   font-size: 2rem;
-  // width: 425px;
+  padding-left: 60px;
+
 }
 .navbar-brand-lower {
   color: #57e597;

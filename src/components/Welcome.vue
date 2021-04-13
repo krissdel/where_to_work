@@ -46,13 +46,13 @@
         </div>
         <div class="need_link">
           <div class="need_link1">
-            <router-link to="/Place">NEED A PLACE FOR WORKING</router-link>
+            <router-link to="/Place">NEED A PLACE TO WORK</router-link>
           </div>
           <div class="need_link2">
-            <router-link to="/">NEED WORK MATERIAL</router-link>
+            <router-link to="/Material">NEED WORK MATERIAL</router-link>
           </div>
-          <div class="need_link2">
-            <router-link to="/">NEED A CO-WORKER</router-link>
+          <div class="need_link3">
+            <router-link to="/Worker">NEED A CO-WORKER</router-link>
           </div>
         </div>
       </div>
@@ -119,6 +119,9 @@ a {
   text-decoration: none;
   color: #57e597;
   font-size: x-large;
+  // text-shadow: #55e094 1px 0 5px;
+}
+a:hover {
   text-shadow: #55e094 1px 0 10px;
 }
 h4 {
@@ -163,7 +166,4 @@ h4 {
   justify-content: center;
 }
 
-// h3 {
-//   margin: 40px 0 0;
-// }
 </style>
