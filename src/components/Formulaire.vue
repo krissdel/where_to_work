@@ -1,5 +1,6 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <!-- <h1>{{ msg }}</h1> -->
+  <h1>inscriptions</h1>
   <div class="hello">
     <div class="card" style="width: 30rem; height: 15rem">
       <div class="card-body">
@@ -59,7 +60,7 @@
     </div>
   </div>
   <!-- <h4>{{ msg }}</h4> -->
-  <h4 class="dots">Welcome</h4>
+  <h4 class="dots">sign-up </h4>
 
  
 </template>

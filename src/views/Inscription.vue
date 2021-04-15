@@ -7,7 +7,7 @@ import Formulaire from '@/components/Formulaire.vue'
 
 
 export default {
-name: Inscription,
+name: "Inscription",
  components: {
     Formulaire,    
   }
