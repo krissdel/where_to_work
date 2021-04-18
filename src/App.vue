@@ -16,13 +16,10 @@
   text-align: center;
   color: #2c3e50;
 }
-// body {
-//   background-color: black;
 
-// }
 body {
     background-color: black;
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
 }
 img,
@@ -34,7 +31,7 @@ svg {
 #nav {
   padding: 30px;
   display: flex;
-  position: fixed;
+  // position: fixed;
   width: 100%;
 
   a {

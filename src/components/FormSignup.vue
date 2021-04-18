@@ -48,7 +48,7 @@
         <!-- ----------------------------------------- -->
         <div class="need_link">
           <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-4">
+            <div class="col-md-5">
               <label for="validationCustom01" class="form-label"
                 >First name</label
               >
@@ -60,7 +60,7 @@
               />
               <div class="valid-feedback">Looks good!</div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
               <label for="validationCustom02" class="form-label"
                 >Last name</label
               >
@@ -91,14 +91,14 @@
               </div>
             </div> -->
 
-<div  class="col-md-6">
+<div  class="col-md-5">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
               <label for="validationCustom03" class="form-label"
-                >enterprise</label
+                >Enterprise</label
               >
               <input
                 type="text"
@@ -139,7 +139,7 @@
     </div>
   </div> -->
             <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+              <button class="btn btn-primary" type="submit">Register</button>
             </div>
           </form>
         </div>
@@ -153,7 +153,7 @@
 
 <script>
 export default {
-  name: "Formulaire",
+  name: "FormSignup",
   //   props: {
   //     msg: String,
   //   },
@@ -196,10 +196,10 @@ export default {
 }
 .need_link {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 98%;
 }
 a {
   text-decoration: none;
@@ -248,7 +248,9 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 800px;
+//   height: 800px;
+  height: 650px;
+
   justify-content: center;
 }
 .form-control {
@@ -269,6 +271,20 @@ label.form-label {
 form.row.g-3.needs-validation {
   display: flex;
   justify-content: center;
+}
+.btn-primary {
+    color: #55e094;
+    background-color: black;
+    border-color: #55e094;
+    border-radius: 0rem;
+    // border: 1px solid transparent;
+    border: 4px solid #57e597;
+}
+.g-3, .gy-3 {
+    --bs-gutter-y: 0.4rem;
+}
+.col-md-5 {
+    width: 45.6666666667%;
 }
 // ====================================================
 </style>

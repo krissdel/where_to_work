@@ -54,7 +54,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 800px;
+  // height: 800px;
+  height: 650px;
   justify-content: center;
 }
 a {
@@ -68,7 +69,7 @@ a {
   width: 80%;
   text-align: left;
   font-size: 2rem;
-  padding-left: 60px;
+  // padding-left: 60px;
 
 }
 .navbar-brand-lower {

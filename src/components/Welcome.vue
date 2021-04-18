@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <!-- <h1>{{ msg }}</h1> -->
   <div class="hello">
     <div class="card" style="width: 30rem; height: 15rem">
       <div class="card-body">
@@ -55,7 +55,7 @@
             <router-link to="/Worker">NEED A CO-WORKER</router-link>
           </div>
            <div class="need_link4">
-            <router-link to="/Inscription">SIGN-UP...</router-link>
+            <router-link to="/Signup">SIGN-UP...</router-link>
           </div>
         </div>
       </div>
@@ -165,7 +165,8 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 800px;
+  // height: 800px;
+  height: 650px;
   justify-content: center;
 }
 
