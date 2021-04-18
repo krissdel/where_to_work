@@ -55,7 +55,7 @@
             <router-link to="/Worker">NEED A CO-WORKER</router-link>
           </div>
            <div class="need_link4">
-            <router-link to="/Inscription">SIGN-UP</router-link>
+            <router-link to="/Inscription">SIGN-UP...</router-link>
           </div>
         </div>
       </div>

@@ -16,8 +16,14 @@
   text-align: center;
   color: #2c3e50;
 }
+// body {
+//   background-color: black;
+
+// }
 body {
-  background-color: black;
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
 }
 img,
 svg {
